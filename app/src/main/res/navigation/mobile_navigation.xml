@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_today">
+
+
+    <fragment
+        android:id="@+id/nav_today"
+        android:name="com.example.lernplantimelogger.ui.today.TodayFragment"
+        android:label="@string/menu_today"
+        tools:layout="@layout/fragment_today" />
+
+    <fragment
+        android:id="@+id/nav_tomarrow"
+        android:name="com.example.lernplantimelogger.ui.tomarrow.TomarrowFragment"
+        android:label="@string/menu_tomarrow"
+        tools:layout="@layout/fragment_tomarrow" />
+
+    <fragment
+        android:id="@+id/nav_week"
+        android:name="com.example.lernplantimelogger.ui.week.WeekFragment"
+        android:label="@string/menu_week"
+        tools:layout="@layout/fragment_week" />
+
+    <fragment
+        android:id="@+id/nav_month"
+        android:name="com.example.lernplantimelogger.ui.month.MonthFragment"
+        android:label="@string/menu_month"
+        tools:layout="@layout/fragment_month" />
+
+    <fragment
+        android:id="@+id/nav_semester"
+        android:name="com.example.lernplantimelogger.ui.semester.SemesterFragment"
+        android:label="@string/menu_semester"
+        tools:layout="@layout/fragment_semester" />
+
+    <fragment
+        android:id="@+id/nav_analytics"
+        android:name="com.example.lernplantimelogger.ui.analytics.AnalyticsFragment"
+        android:label="@string/menu_analytics"
+        tools:layout="@layout/fragment_analytics" />
+</navigation>
